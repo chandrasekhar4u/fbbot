@@ -1,11 +1,22 @@
 
 
-# ${projectname}
+# fbbot
 
 
 
 ## Usage
-
+install node.js
+install heroku toolbelt(for windows)
+Open Node.js command prompt...
+$ heroku login
+Enter your Heroku credentials.
+Email: adam@example.com
+Password (typing will be hidden):
+Authentication successful.
+go to the application location
+$ git add .
+$ git commit -m "your comment"
+$ git push heroku master
 
 
 ## Developing
