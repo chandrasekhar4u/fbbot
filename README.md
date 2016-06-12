@@ -5,18 +5,18 @@
 
 
 ## Usage
-install node.js
-install heroku toolbelt(for windows)
-Open Node.js command prompt...
-$ heroku login
-Enter your Heroku credentials.
-Email: adam@example.com
-Password (typing will be hidden):
-Authentication successful.
-go to the application location
-$ git add .
-$ git commit -m "your comment"
-$ git push heroku master
+install node.js <br/>
+install heroku toolbelt(for windows) <br/>
+Open Node.js command prompt... <br/>
+$ heroku login<br/>
+Enter your Heroku credentials. <br/>
+Email: adam@example.com <br/>
+Password (typing will be hidden): <br/>
+Authentication successful. <br/>
+go to the application location <br/>
+$ git add . <br/>
+$ git commit -m "your comment" <br/>
+$ git push heroku master <br/>
 
 
 ## Developing
