@@ -11,7 +11,6 @@ install <a href="https://toolbelt.heroku.com/" >heroku toolbelt</a> (for windows
 Open Node.js command prompt... <br/>
 `$ cd fbbot/`  <br/>
 `$ git init`  <br/>
-`$ heroku git:remote -a appName` (heroku app name, here fbbot)  <br/>
 `$ npm install` <br/>
 After completing installing required dependencies/modules.<br/>
 `$ heroku login` <br/>
@@ -20,6 +19,7 @@ Email: adam@example.com <br/>
 Password (typing will be hidden): <br/>
 Authentication successful. <br/>
 go to the application location <br/>
+`$ heroku git:remote -a appName` (while creting app first time, else fallow below steps)  <br/>
 `$ git add . ` <br/>
 `$ git commit -m "your comment"` <br/>
 `$ git push heroku master` <br/>
