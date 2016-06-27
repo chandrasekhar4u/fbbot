@@ -9,9 +9,11 @@ install <a href="https://nodejs.org/en/download/" >node.js</a> <br/>
 install <a href="https://toolbelt.heroku.com/" >heroku toolbelt</a> (for windows) <br/>
 `git clone https://github.com/{forked}/fbbot.git` <br/>
 Open Node.js command prompt... <br/>
-`cd fbbot` <br/>
-`npm install` <br/>
-After completing installing required dependencies/modules.
+`$ cd fbbot/`  <br/>
+`$ git init`  <br/>
+`$ heroku git:remote -a appName` (heroku app name, here fbbot)  <br/>
+`$ npm install` <br/>
+After completing installing required dependencies/modules.<br/>
 `$ heroku login` <br/>
 Enter your Heroku credentials. <br/>
 Email: adam@example.com <br/>
